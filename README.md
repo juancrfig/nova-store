@@ -3,39 +3,39 @@
 - Jennifer Arciniegas
 - Daniel Pereira
 - Anderson Galvis
-- Juan Ramirez
+- Juan Ramírez
 
 ---
 
 ### IDEAS PROPUESTAS
 
 1. Ropa Urbana:      Descartada debido a falta de pontecial en el mercado.
-2. Pagina Sex-shop:  Descartada por politicas internas de Campuslands.
+2. Pagina Sex-shop:  Descartada por políticas internas de Campuslands.
 3. Pet-shop:         Descartada por falta de potencial en el mercado.
 
 ---
 
-**Nicho:** Accesorios para computadoras gamer
+**Nicho:** Accesorios para computadoras gamer.
 
 #### Argumento
 
-El mercado de computadoras gamer ha venido creciendo constantemente, sin embargo la 
+El mercado de computadoras gamer ha venido creciendo constantemente. Sin embargo, la 
 necesidad de accesorios ergonómicos, económicos y duraderos que potencien la experiencia
-del usuario  aumentó en los últimos años. Es aquí donde nace la idea de ser líderes 
-en este nicho y aportar productos de valor que mejoren la experiencia del usuario 
-sin dejar a un lado la prioridad en la salud del usuario.
+del usuario aumentó en los últimos años. 
+Es aquí donde nace la idea de ser líderes en este nicho y aportar productos de valor que 
+mejoren la experiencia del usuario sin dejar a un lado la prioridad en la salud de este.
 
 ---
 
 #### Objetivo general
 
-Establecernos como lideres en este nicho.
+Establecernos como líderes en este nicho.
 
 #### Objetivos específicos:
 
 1. Identificar el alcance de la página web. 
-2. Definir las tecnologías a usar en la creación del projecto.
-3. Testear la página.
+2. Maquetar la página.
+3. Testear la página. 
 
 ---
 
