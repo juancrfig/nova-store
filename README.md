@@ -1,9 +1,9 @@
 # EQUIPO TEMPORAL
 
-Jennifer Arciniegas
-Daniel Pereira
-Anderson Galvis
-Juan Ramirez
+- Jennifer Arciniegas
+- Daniel Pereira
+- Anderson Galvis
+- Juan Ramirez
 
 ---
 
@@ -25,6 +25,7 @@ del usuario  aumentó en los últimos años. Es aquí donde nace la idea de ser 
 en este nicho y aportar productos de valor que mejoren la experiencia del usuario 
 sin dejar a un lado la prioridad en la salud del usuario.
 
+---
 
 #### Objetivo general
 
@@ -32,6 +33,10 @@ Establecernos como lideres en este nicho.
 
 #### Objetivos específicos:
 
-1.  
-2. 
-3. 
+1. Identificar el alcance de la página web. 
+2. Definir las tecnologías a usar en la creación del projecto.
+3. Testear la página.
+
+---
+
+
