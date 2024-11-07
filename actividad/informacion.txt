@@ -11,3 +11,54 @@ o diurno y el logo de carrito.
 
 El botón de chat debe estar presente en todas las páginas ubicado en la parte inferior derecha, el cual abrirá un formulario. 
 
+detalles.
+visión: 
+nombre de la página: Nova
+requisitos no funcionales 
+responsive
+para dispositivos de pantalla pequeña y mediana, grande
+posicionamiento de SEO
+semántico 
+ui ux
+requisitos funcionales 
+animaciones de elementos, botones imágenes scroll 
+colores, neón, con background aplicando transición 
+cada botón debe aplicar animación de click
+cuando el mouse pasa por algún elemento aumenta sutilmente su tamaño solo productos.
+
+para todas la paginas:
+navegación:
+menú de la página fijo.
+barra de búsqueda en el centro del menú, cambie de color cuando se este escribiendo.
+LOGO nombre de la página.
+botón de categorías ubicado a la izquierda y despliegue las categorías.
+botón para cambiar modo nocturno y diurno.
+botón de carrito a la derecha esquina, del menú.
+
+botón de chat abajo a la derecha fijo ( icono de persona con comunicador) que explique el formulario pidiendo nombre email, número y caja de texto, cuando se envíe se cierre y cambie el icono a mensaje enviado. 
+
+
+página principal:
+sin navegación. 
+con botones de cambio de modo nocturno y diurno
+botón de carrito a la derecha superior de la página.
+
+nombre de la página en la parte superior del buscador. 
+buscador en el centro de la página. cambie de color cuando se escriba.
+
+listado de categorías centrado asimétrico de productos que tenemos, que redirija a la respectiva pagina donde estan esos productos. sin necesidad de scroll.
+ animaciones de botones. cuando se haga click 
+
+navegación por las páginas.
+se abre dentro de la página. 
+menu navegación.
+
+barra de búsqueda en la parte superior 
+organizado en tres columnas con un máximo de 2 filas y que permita cambiar a ver mas productos dentro del stock
+mostrar productos ordenados con su respectivo título imagen y precio.
+menú de la página fijo
+botón de chat.
+
+NOTAS. 
+el equipo definirá la paleta de colores que se trabajará en la página.
+el cliente nos presentará los productos que desea se presentarán en cada categoría.
