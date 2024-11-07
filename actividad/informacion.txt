@@ -1,0 +1,13 @@
+Proyecto NOVA 
+Un cliente dedicado a comerciar accesorios para computadora en el nicho Gamer, desea crear un marketplace de accesorios Gamer.
+
+El diseño web contará con una página principal que contendrá centrados el logo y buscador, en la parte inferior del buscador se
+espera un listado de las categorías, los cuales al hacer click van a redirigir a su respectiva página . 
+
+Los productos estarán organizados en categorías con sus respectivos productos, desde una categoría a otra
+se permite la navegación mediante un menú fijo en la parte superior de la página, el cual contendrá en la esquina izquierda el logo, el
+botón desplegable de categorías, una barra buscadora en el centro y en la parte derecha contará con el botón para cambiar de modo nocturno 
+o diurno y el logo de carrito. 
+
+El botón de chat debe estar presente en todas las páginas ubicado en la parte inferior derecha, el cual abrirá un formulario. 
+
