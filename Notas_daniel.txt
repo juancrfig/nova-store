@@ -1,0 +1,260 @@
+Índice de la documentación
+
+    Introducción a Bulma
+    Instalación de Bulma
+    Estructura Básica de una Página con Bulma
+    Sistema de Grillas de Bulma
+    Componentes de Bulma
+        Navbar
+        Botones
+        Tarjetas
+        Formularios
+        Listas
+        Modales
+        Menús
+        Paginación
+        Notificaciones
+    Utilidades de Bulma
+        Colores
+        Espaciado
+        Tipografía
+        Alineación
+        Flexbox
+        Sombra
+        Visibilidad
+    Personalización de Bulma
+    Conclusión y Consejos
+
+1. Introducción a Bulma
+
+Bulma es un framework de diseño que proporciona una serie de clases CSS para ayudar a crear interfaces web elegantes, responsivas y fáciles de implementar. Se basa en Flexbox, lo que permite un sistema de diseño flexible y eficiente.
+
+Algunas de las ventajas de usar Bulma son:
+
+    Modularidad: Solo incluyes lo que realmente necesitas.
+    Flexibilidad: Flexbox hace que la disposición de elementos sea mucho más sencilla.
+    Ligereza: No incluye JavaScript, lo que mejora la carga de la página.
+    Estilo limpio y minimalista: El diseño por defecto de Bulma es sencillo y moderno, lo que te permite personalizarlo fácilmente.
+
+2. Instalación de Bulma
+Opción 1: Usar un CDN
+
+La forma más sencilla de comenzar con Bulma es enlazando el archivo CSS desde un CDN (Content Delivery Network). Solo debes incluir esta línea en tu archivo HTML:
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+Opción 2: Instalar con npm/yarn
+
+Si estás usando npm o Yarn, puedes instalar Bulma de forma local:
+
+    Con npm:
+
+npm install bulma
+
+Con Yarn:
+
+    yarn add bulma
+
+Luego, importa Bulma en tu archivo CSS o en tu archivo principal de JavaScript:
+
+import 'bulma/css/bulma.css';
+
+Opción 3: Descargar Bulma
+
+También puedes descargar Bulma directamente desde su sitio web o repositorio de GitHub. Extrae los archivos y agrega el archivo CSS a tu proyecto.
+3. Estructura Básica de una Página con Bulma
+
+A continuación, te presento una estructura básica de página utilizando Bulma. Esta estructura incluye un navbar, una sección de contenido, y un footer.
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Bulma</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar is-primary">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                <strong>Mi Sitio Web</strong>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main content -->
+    <section class="section">
+        <div class="container">
+            <h1 class="title">Bienvenido a mi sitio web</h1>
+            <p class="subtitle">Usando Bulma para un diseño responsivo y moderno.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>Mi Sitio Web</strong> por <a href="#">Tu Nombre</a>.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+
+Explicación de la estructura:
+
+    Navbar: Contiene la barra de navegación superior con la clase navbar is-primary, donde is-primary es un modificador de color.
+    Section: Utiliza la clase section para crear un espacio con márgenes y relleno. Dentro de ella, usamos un contenedor (container) para centralizar el contenido.
+    Footer: El pie de página se crea utilizando la clase footer y content has-text-centered para centrar el contenido.
+
+4. Sistema de Grillas de Bulma
+
+El sistema de grillas de Bulma se basa en Flexbox, lo que facilita la creación de diseños complejos y adaptables. En lugar de usar clases como col o row, Bulma utiliza la clase columns para el contenedor y column para cada elemento individual.
+Ejemplo de Grillas:
+
+<div class="columns">
+  <div class="column is-half">
+    <div class="box">Columna 1</div>
+  </div>
+  <div class="column is-half">
+    <div class="box">Columna 2</div>
+  </div>
+</div>
+
+En este ejemplo, tenemos dos columnas de tamaño 50% (usando la clase is-half). Bulma tiene clases predeterminadas para tamaños de columna como is-one-quarter, is-one-third, is-half, is-two-thirds, y is-three-quarters.
+Ejemplo de Columnas Responsivas:
+
+<div class="columns">
+  <div class="column is-half-tablet is-one-third-desktop">
+    <div class="box">Columna 1</div>
+  </div>
+  <div class="column is-half-tablet is-one-third-desktop">
+    <div class="box">Columna 2</div>
+  </div>
+</div>
+
+En este ejemplo, las columnas se ajustan según el tamaño de la pantalla:
+
+    En dispositivos tablets, cada columna ocupará el 50% del ancho (is-half-tablet).
+    En dispositivos desktops, las columnas ocuparán el 33.33% del ancho (is-one-third-desktop).
+
+5. Componentes de Bulma
+Navbar
+
+El navbar de Bulma se utiliza para crear barras de navegación. Aquí tienes un ejemplo de un navbar básico:
+
+<nav class="navbar is-primary">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="#">Mi Sitio</a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-end">
+      <a class="navbar-item" href="#">Inicio</a>
+      <a class="navbar-item" href="#">Servicios</a>
+      <a class="navbar-item" href="#">Contacto</a>
+    </div>
+  </div>
+</nav>
+
+Botones
+
+Los botones en Bulma se pueden personalizar fácilmente utilizando clases como is-primary, is-link, is-danger, etc. Aquí tienes algunos ejemplos:
+
+<button class="button is-primary">Botón Principal</button>
+<button class="button is-link">Botón Enlace</button>
+<button class="button is-danger">Botón Peligro</button>
+
+Tarjetas (Cards)
+
+Las tarjetas en Bulma permiten mostrar contenido dentro de un marco estilizado, como una caja con bordes y sombras.
+
+<div class="card">
+  <div class="card-header">
+    <p class="card-header-title">
+      Título de la tarjeta
+    </p>
+  </div>
+  <div class="card-content">
+    <div class="content">
+      Aquí va el contenido de la tarjeta.
+    </div>
+  </div>
+</div>
+
+Formularios
+
+Bulma facilita la creación de formularios con un diseño limpio y centrado. A continuación, te muestro cómo crear un formulario básico:
+
+<form>
+  <div class="field">
+    <label class="label">Nombre</label>
+    <div class="control">
+      <input class="input" type="text" placeholder="Ingresa tu nombre">
+    </div>
+  </div>
+  <div class="field">
+    <label class="label">Correo Electrónico</label>
+    <div class="control">
+      <input class="input" type="email" placeholder="Ingresa tu correo electrónico">
+    </div>
+  </div>
+  <div class="field">
+    <div class="control">
+      <button class="button is-link">Enviar</button>
+    </div>
+  </div>
+</form>
+
+Modales
+
+Bulma también proporciona modales, los cuales se pueden mostrar u ocultar según sea necesario, aunque la interacción JavaScript no es parte del framework. A continuación, un ejemplo de un modal básico:
+
+<div class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-content">
+    <div class="box">
+      Este es un contenido dentro de un modal.
+    </div>
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+
+6. Utilidades de Bulma
+Colores
+
+Bulma incluye un sistema de clases de color que puedes usar para modificar el fondo, el texto, los botones, etc. Algunas clases comunes son:
+
+    Fondo: has-background-primary, has-background-link, etc.
+    Texto: has-text-centered, has-text-dark, has-text-light, etc.
+
+Espaciado
+
+Bulma tiene un sistema de espaciado con clases como:
+
+    Margen: m-0, m-1, m-2, etc.
+    Relleno: p-0, p-1, p-2, etc.
+    Margen horizontal y vertical: mx-1, my-2, etc.
+
+Flexbox
+
+Ya que Bulma está basado en Flexbox, puedes usar las clases relacionadas con Flexbox para alinear y distribuir elementos:
+
+    Alineación: is-centered, is-flex, is-align-items-center.
+    Distribución: is-justify-content-space-between.
+
+7. Personalización de Bulma
+
+Bulma es fácilmente personalizable. Puedes hacerlo modificando el archivo SASS que viene con Bulma o cambiando las clases CSS directamente.
+
+Si deseas personalizar colores, espaciado, etc., puedes crear un archivo .scss y modificar las variables de Bulma.
+
+Por ejemplo, puedes cambiar el color primario de la siguiente manera:
+
+$primary: #ff5733;
+@import 'bulma';
