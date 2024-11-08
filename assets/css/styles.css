@@ -1,9 +1,10 @@
 :root {
     --pink: #BF348E;
     --purple: #471D59;
-    --bright-purple: #7155D9;
+    --blue-purple: #7155D9;
     --black-purple: #080326;
     --blue: #38358C;
+    --bright-purple: #61167B;
 }
 
 /* ANIMACIONES GENERALES */
@@ -26,9 +27,9 @@ html, body {
 }
 
 html {
-    background: linear-gradient(45deg, var(--pink), var(--purple), var(--black-purple));
+    background: linear-gradient(5deg, #22082A,  var(--bright-purple));
     background-size: 300% 300%;
-    animation: color 20s ease-in-out infinite;
+    animation: color 10s ease infinite;
 }
 
 body {
@@ -36,6 +37,7 @@ body {
 }
 
 .navbar {
-    background-color: var(--black-purple);
-    t
+    background-color: var(--bright-purple);
+    border-radius: 5px;
+    box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.3);
 }
