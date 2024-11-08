@@ -62,3 +62,11 @@ botón de chat.
 NOTAS. 
 el equipo definirá la paleta de colores que se trabajará en la página.
 el cliente nos presentará los productos que desea se presentarán en cada categoría.
+
+Accesorio. 
+controles consola para computadoras
+mouse
+Microfonos
+Teclados
+Audifonos
+Sillas ergonómicas
