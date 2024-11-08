@@ -1,0 +1,41 @@
+:root {
+    --pink: #BF348E;
+    --purple: #471D59;
+    --bright-purple: #7155D9;
+    --black-purple: #080326;
+    --blue: #38358C;
+}
+
+/* ANIMACIONES GENERALES */
+
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    background: linear-gradient(45deg, var(--pink), var(--purple), var(--black-purple));
+    background-size: 300% 300%;
+    animation: color 20s ease-in-out infinite;
+}
+
+body {
+    overflow: auto;
+}
+
+.navbar {
+    background-color: var(--black-purple);
+    t
+}
