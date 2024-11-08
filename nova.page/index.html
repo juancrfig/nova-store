@@ -3,52 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Buscador con Bulma</title>
+  <title>Botones Acomodados con Bulma</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-  <style>
-    .container {
-      margin-top: 50px;
-    }
-    .search-box {
-      margin-bottom: 30px;
-    }
-    .results-list {
-      max-height: 300px;
-      overflow-y: auto;
-      border: 1px solid #ddd;
-      border-radius: 4px;
-      padding: 10px;
-      background-color: #f9f9f9;
-    }
-    .results-list li {
-      padding: 8px;
-      cursor: pointer;
-    }
-    .results-list li:hover {
-      background-color: #f0f0f0;
-    }
-  </style>
 </head>
 <body>
 
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-half">
-        <!-- Buscador -->
-        <div class="box">
-          <h1 class="title is-3 has-text-centered">Nova</h1>
-          <div class="field search-box">
-            <label class="label">Buscar</label>
-            <div class="control">
-              <input id="searchBox" class="input" type="text" placeholder="Escribe para buscar..." onkeyup="searchItems()">
-            </div>
-          </div>
+  <div class="container" style="margin-top: 50px;">
+    <h1 class="title">Botones Centrados con Espaciado</h1>
 
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-</body>
-</html>
+    <div class="buttons is-centered">
+      <button class="button is-primary m-3">Botón 1</button>
+      <button class="button is-info m-3">Botón 2</button>
+      <button class="button is-success m-3
