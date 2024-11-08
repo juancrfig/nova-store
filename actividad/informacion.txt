@@ -35,7 +35,8 @@ botón de categorías ubicado a la izquierda y despliegue las categorías.
 botón para cambiar modo nocturno y diurno.
 botón de carrito a la derecha esquina, del menú.
 
-botón de chat abajo a la derecha fijo ( icono de persona con comunicador) que explique el formulario pidiendo nombre email, número y caja de texto, cuando se envíe se cierre y cambie el icono a mensaje enviado. 
+botón de chat abajo a la derecha fijo ( icono de persona con comunicador) que explique el formulario pidiendo nombre email, número y
+ caja de texto, cuando se envíe se cierre y cambie el icono a mensaje enviado. 
 
 
 página principal:
@@ -63,10 +64,13 @@ NOTAS.
 el equipo definirá la paleta de colores que se trabajará en la página.
 el cliente nos presentará los productos que desea se presentarán en cada categoría.
 
-Accesorio. 
+---Accesorio. 
 controles consola para computadoras
 mouse
 Microfonos
 Teclados
 Audifonos
 Sillas ergonómicas
+
+---prototipo figma.
+https://www.figma.com/design/jAGhKoHAW39AzcVQZksKnN/Untitled?node-id=0-1&m=dev&t=gBE4lSw4RyYGr6vq-1
