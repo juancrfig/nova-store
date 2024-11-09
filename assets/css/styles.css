@@ -46,16 +46,52 @@ body {
     color: #333333; /* Color del texto */
     border: 2px solid #007bff; /* Color del borde */
 }
-h1{
+
+h1 {
     font-family: Mansalva;
-    font-size: 12rem;
+    font-size: clamp(10rem, 10vw + 8rem, 15rem);
 }
+
 .input{
-    width: 40vw;
+
+    width: clamp(350px, 70vw, 800px);
     background-color: var(--blue-purple);
     color: black;
 }
 .input::placeholder{
     color: black;
     text-align: center;
+    font-size: clamp(1rem, 2vw + 0.4rem, 1.2rem);
+}
+
+
+/* GRID */
+
+div .columns {
+    margin-left: 10%;
+}
+
+.boton-categoria {
+    background-color: var(--blue-purple);
+    width: clamp(200px, 10%, 220px);
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: var(--black-purple);
+}
+
+footer {
+    height: 10px;
+}
+
+.logo {
+    width: clamp( 50px, 2vw, 100px);
+    background-color: var(--black-purple);
+}
+
+.logo-button {
+    background-color: var(--black-purple);
+    border: none;
 }

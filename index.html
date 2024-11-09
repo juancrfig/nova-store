@@ -14,23 +14,42 @@
     <title>Nova Store</title>
 </head>
 <body>
-    <div class="is-flex is-justify-content-center is-align-items-center mt-6 is-flex-direction-column">
-        <h1 class="is-size-1-mobile">Nova</h1>
+    <div class="is-flex is-justify-content-center is-align-items-center is-flex-direction-column">
+        <h1 id="nova">Nova</h1>
         <div>
-        <input class="input is-large is-rounded is-half is-fullwith" type="text" placeholder=" Buscador">
+        <input class="input is-large is-rounded is-half is-fullwith mb-2" type="text" placeholder=" Buscador">
         </div>
-
-        <div class="fixed-grid has-3-cols ">
-            <div class="grid">
-                <div class=" cell button column ">6</div>
-                <div class="cell button">1</div>
-                <div class="cell button">2</div>
-                <div class="cell button">3</div>
-                <div class="row cell button">4</div>
-                <div class=" cell button">5</div>
-            </div>
-            
+        <div class="columns is-multiline mt-6 is-flex-mobile mb-6">
+            <!-- Fila 1 -->
+            <div class="column is-one-third-desktop is-half-tablet is-full-mobile"><button class="boton-categoria button is-rounded is-large">Micrófonos</button></div>
+            <div class="column is-one-third-desktop is-half-tablet is-full-mobile"><button class="boton-categoria button is-rounded is-large">Mouses</button></div>
+            <div class="column is-one-third-desktop is-half-tablet is-full-mobile"><button class="boton-categoria button is-rounded is-large">Audífonos</button></div>
+        
+            <!-- Fila 2 -->
+            <div class="column is-one-third-desktop is-half-tablet is-full-mobile"><button class="boton-categoria button is-rounded is-large">Teclados</button></div>
+            <div class="column is-one-third-desktop is-half-tablet is-full-mobile"><button class="boton-categoria button is-rounded is-large">Mandos</button></div>
+            <div class="column is-one-third-desktop is-half-tablet is-full-mobile"><button class="boton-categoria button is-rounded is-large">Sillas</button></div>
         </div>
     </div>
+    <footer class="footer">
+        <div class="columns is-vcentered is-mobile">
+          <div class="column is-half-mobile">
+            <p>© 2024 Nova <br> Todos los derechos reservados.</p>
+          </div>
+      
+          <div class="column is-half-mobile is-flex is-justify-content-flex-end">
+            <a href="https://www.amazon.com" class="logo-button button is-small mr-2">
+              <span class="span-logo">
+                <img class="logo" src="https://static-00.iconduck.com/assets.00/amazon-icon-2048x1722-myhuicq8.png" alt="Icono de Amazon">
+              </span>
+            </a>
+            <a href="https://www.instagram.com" class="logo-button button is-small">
+              <span>
+                <img class="logo" src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png" alt="Icono Instagram">
+              </span>
+            </a>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
