@@ -1,1 +1,0 @@
-https://www.mercadolibre.com.co/silla-gamer-xtrike-me-escritorio-ergonomica-reclinable-color-negrogris-material-del-tapizado-cuero-sintetico/p/MCO26886675#polycard_client=search-nordic&searchVariation=MCO26886675&position=2&search_layout=grid&type=product&tracking_id=7a091d4d-e555-49aa-b571-3dac6cf499e6&wid=MCO2414823232&sid=search
