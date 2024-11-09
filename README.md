@@ -42,10 +42,15 @@ Establecernos como líderes en este nicho.
 ### Tiempos Estimados
 
 **Tiempo total:** 1 Semana
+
 **Análisis del mercado y estudio del framework Bulma:** 2 días
+
 **Prototipo de Interfaces:** 1 día
+
 **Maquetación básica:**  1 día
-**Construir la página web:** 2 días
+
+**Construir la página web:** 1 días
+
 **Debugging:** 1 día
 
 ---
