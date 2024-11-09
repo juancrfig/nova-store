@@ -9,48 +9,11 @@
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/fonts.css" type="text/css">
     <link rel="stylesheet" href="./assets/css/styles.css" type="text/css">
-   <meta name="description" content="Tienda especializada en proveer accesorios de última tecnología para gamers">
+    <meta name="description" content="Tienda especializada en proveer accesorios de última tecnología para gamers">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet"> 
     <title>Nova Store</title>
-    <style>
-      .chat-button {
-          position: fixed;
-          bottom: 20px;
-          right: 20px;
-          width: 60px;
-          height: 60px;
-          border-radius: 50%;
-          background-color: #7155D9;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          cursor: pointer;
-          z-index: 1000;
-      }
-      .chat-button img {
-          width: 30px;
-          height: 30px;
-      }
-      .chat-form {
-          display: none;
-          position: fixed;
-          bottom: 90px;
-          right: 20px;
-          width: 300px;
-          background-color: white;
-          border-radius: 8px;
-          box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-          z-index: 1001;
-      }
-      #chat-toggle:checked ~ .chat-form {
-          display: block;
-      }
-      .chat-form .box {
-          padding: 1.25rem;
-          background-color: #7155D9;
-
-      }
-      
-  </style>
 </head>
 <body>
     <nav class="navbar">
@@ -60,13 +23,13 @@
         <div class="columns is-centered">
           <div class="column is-half">
             <!-- Buscador -->
-            <h1 class="title is-3 has-text-centered">Nova</h1>
+            <h1 class="title is-1 has-text-centered">Nova</h1>
             <div class="box">
               
               <div class="field search-box">
                 <label class="label"></label>
                 <div class="control">
-                  <input id="searchBox" class="input" type="text" placeholder="Escribe para buscar..." onkeyup="searchItems()">
+                  <input id="searchBox" class="input custom-search" type="text" placeholder="Articulo para buscar..." onkeyup="searchItems()">
                 </div>
               </div>
     
@@ -85,50 +48,5 @@
     <button class="button is-danger is-outlined is-large m-4">Button</button>
     </div>
 
-    
-    <input type="checkbox" id="chat-toggle" hidden>
-    <label for="chat-toggle" class="chat-button">
-        <img src="https://cdn.jsdelivr.net/npm/@mdi/svg@7.2.96/svg/message-outline.svg" alt="Chat icon">
-    </label>
-
-    <div class="chat-form">
-        <div class="box">
-            <form>
-                <div class="field">
-                    <label class="label has-text-white">Nombre</label>
-                    <div class="control">
-                        <input class="input" type="text" placeholder="Tu nombre" required>
-                    </div>
-                </div>
-
-                <div class="field">
-                    <label class="label has-text-white">Email</label>
-                    <div class="control">
-                        <input class="input" type="email" placeholder="Tu email" required>
-                    </div>
-                </div>
-
-                <div class="field">
-                    <label class="label has-text-white">Número</label>
-                    <div class="control">
-                        <input class="input" type="tel" placeholder="Tu número de teléfono" required>
-                    </div>
-                </div>
-
-                <div class="field">
-                    <label class="label has-text-white">Mensaje</label>
-                    <div class="control">
-                        <textarea class="textarea" placeholder="Tu mensaje" required></textarea>
-                    </div>
-                </div>
-
-                <div class="field">
-                    <div class="control">
-                        <button class="button is-fullwidth" type="submit" style="background-color: #471d59; color: white; border-color: #471d59;">Enviar</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
 </body>
 </html>

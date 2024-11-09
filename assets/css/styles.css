@@ -41,3 +41,11 @@ body {
     border-radius: 5px;
     box-shadow: 2px 7px 7px rgba(0, 0, 0, 0.3);
 }
+.custom-search {
+    background-color: #f0f0f0; /* Color de fondo */
+    color: #333333; /* Color del texto */
+    border: 2px solid #007bff; /* Color del borde */
+}
+h1{
+    font-family: Mansalva;
+}
