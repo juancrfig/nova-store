@@ -48,4 +48,14 @@ body {
 }
 h1{
     font-family: Mansalva;
+    font-size: 12rem;
+}
+.input{
+    width: 40vw;
+    background-color: var(--blue-purple);
+    color: black;
+}
+.input::placeholder{
+    color: black;
+    text-align: center;
 }
