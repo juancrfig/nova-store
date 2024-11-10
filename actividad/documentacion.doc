@@ -8,8 +8,23 @@ El botón de chat debe estar presente en todas las páginas ubicado en la parte 
 
 
 Primer dia 6 noviembre
-Se realizó la visión del proyecto con el Cliente y el Scrum Master, en esta breve reunión donde se conocieron las ideas que el cliente implementaría en la página, el objetivo general y el propósito. 
+Se realizó la visión del proyecto con el Cliente y el Scrum Master, en esta breve reunión donde
+se conocieron las ideas que el cliente implementaría en la página, el objetivo general y el propósito. 
 el developer team, estuvo estudiando el framework Bulma. 
 
+segundo dia 7 Noviembre
+Se realizo la selecion de la paleta de colores que se manejarian en la pagina, asi tambien se
+realizo el prototipo en figma. se crearon los archivos HTML para la pagina inicial y categorias, se comenzo 
+a trabajar en la pagina inicial con sus elementos, las categorias enfocandose en el menu, y el logo junto
+al formulario de chat.
 
+tercer dia 8 Noviembre.
+se organizaron las tareas en notion para una mejor distribucion y orden, se realizo depuracion de archivos
+en el repositorio, se continuo trabajando en la pagina principal mediante la programacion en parejas
+el equipo tomo una explicacion para hacer commit y trabajar mediante ramas con git para facilitar la 
+realizacion de las tareas sin ver interrumpido el trabajo de lo demas compañeros. Asi tambien se recolecto 
+informacion de productos referentes a las categorias de la pagina web.
+
+Cuarto dia 9 Noviembre.
+Se trabajo en la pagina Contactos y Categorias teniendo en cuenta el prototipo en figma.
 
